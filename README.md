@@ -7,7 +7,7 @@ Multiple Linear Regression:(向量)
 y=b0+b1*x1+b2*x2+...+bn*xn
 
 範例: y=b0+b1*x1+b2*x2+ b3*x3+ b4*D1(將State改為一個虛擬變量)
- 
+ [!images:]https://github.com/egroeglee/pictures/blob/master/MultipleLinearRegression/1.png
 注意: (Dummy Variables Trap)虛擬變量陷阱(state:為名目尺度，所以要做分類數據處理)
 
 訓練集處理完畢如下圖: 所以避免虛擬變量陷阱，需要刪除其中一列。 x = x[:, 1:]
