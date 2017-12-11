@@ -31,7 +31,12 @@
 
   ![image](https://github.com/egroeglee/pictures/blob/master/MultipleLinearRegression/5.png)
   
-        重複上述動作 直到找出最佳的P值(很小)
+        重複上述動作 直到找出最佳的P值(很小) 
+        也可以注意每次的篩選Adjusted R-SQUAREED的變化，不一定要依照當初設定的門檻5%來判斷。
+        可以參考廣義R平方的變化，基本上來說可視為R平方最大的值的準確率最高(根據演算法來看，R平方趨近於1越好)
+        
+        廣義R平方: 增加了一個逞罰係數，比起基本的R平方來說，得出的結果較為公正。
+        PS. 所以下圖不是最好的!
 
   ![image](https://github.com/egroeglee/pictures/blob/master/MultipleLinearRegression/6.png)
   
